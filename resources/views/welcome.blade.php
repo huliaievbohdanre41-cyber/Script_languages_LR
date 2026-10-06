@@ -1,12 +1,7 @@
-@extends('layouts.app')
-
-@section('title', 'Головна — Університет')
-
-@section('content')
-    <h1 style="margin-bottom: 20px;color: #000000;">
-        🏛️ Університет </h1>
-    <p style="color: #000000;">
-        Місія Університету - служити людині, громаді, суспільству.</p>
-    <p style="color: #000000;">
-        Виконав: Гуляєв Б. А., група РЕ-41.</p>
-@endsection
+@extends('layouts.app') 
+@section('title', 'Головна сторінка') 
+@section('content') 
+<h1>Лабораторний практикум</h1> 
+<p>Застосунок на основі фреймворку Laravel.</p> 
+<p>Виконав: Прізвище І. Б., група РІ-хх.</p> 
+@endsection 
